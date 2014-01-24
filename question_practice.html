@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>題目練習 - Quizonla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Include/css/jquery.mobile.min.css" rel="stylesheet">
+    <script type='text/javascript' src="Include/js/3rd/jquery.min.js"></script>
+    <script type='text/javascript' src="Include/js/3rd/jquery.mobile.min.js"></script>
+</head>
+<body>
+<!-- Single Choice Question Sample -->
+<div data-role="page" data-control-title="Question_Practice" id="question_1">
+    <div data-role="header" data-position="fixed">
+        <a href="exam_list.html" data-icon="back" data-transition="fade">回列表</a>
+        <h5>英文測驗</h5>
+    </div>
+    <div data-role="content">
+        <div id="font_size" data-role="fieldcontain" data-controltype="htmlblock">
+            <input type="button" value="1" data-mini="true" data-inline="true" style="float: left; width:10%;">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" data-inline="true" style="float: right; width:40%;">
+                <input type="radio" name="" id="normal" value="middle" checked="checked">
+                <label for="normal">A</label>
+                <input type="radio" name="" id="zoom_in" value="large">
+                <label for="zoom_in">A+</label>
+            </fieldset>
+        </div>
+        <div id="question_content" data-role="fieldcontain" data-controltype="htmlblock">
+            <font size="2">
+            　　Badly injured in the car accident, Jason could _____ move his legs and was sent to the hospital right away.<br>
+            【99年學測】
+            </font>
+        </div>
+        <div id="checkboxes5" data-role="fieldcontain" data-controltype="radiobuttons">
+            <div class="ui-grid-a" >
+                <div class="ui-block-a" style="width:10%;">
+                </div>
+                <div class="ui-block-b" style="width:90%">
+                    <input type="radio" name="r1" id="radio1" data-mini="true" value="1" checked="checked">
+                    <label for="radio1">accordingly</label>
+                </div>
+            </div>
+            <div class="ui-grid-a" >
+                <div class="ui-block-a" style="width:10%;">
+                </div>
+                <div class="ui-block-b" style="width:90%">
+                    <input type="radio" name="r2" id="radio2" data-mini="true" value="2">
+                    <label for="radio2">undoubtedly</label>
+                </div>
+            </div>
+            <div class="ui-grid-a" >
+                <div class="ui-block-a" style="width:10%;">
+                </div>
+                <div class="ui-block-b" style="width:90%">
+                    <input type="radio" name="r3" id="radio3" data-mini="true" value="3">
+                    <label for="radio3">handily</label>
+                </div>
+            </div>
+            <div class="ui-grid-a" >
+                <div class="ui-block-a" style="width:10%;">
+                    <!--<a href="#" data-role="button" data-icon="check" data-iconpos="notext" data-theme="c" data-inline="true">Check</a>-->
+                </div>
+                <div class="ui-block-b" style="width:90%">
+                    <input type="radio" name="r4" id="radio4" data-mini="true" value="4">
+                    <label for="radio4">scarcely</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="question_review.html" data-icon="check">對答案</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div>
+</body>
+</html>

@@ -1,2 +1,52 @@
-This is my github page.
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quizonla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Include/css/jquery.mobile.min.css" rel="stylesheet">
+    <script type='text/javascript' src="Include/js/3rd/jquery.min.js"></script>
+    <script type='text/javascript' src="Include/js/3rd/jquery.mobile.min.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Login" id="index">
+    <div id="fb-root"></div>
+    <SCRIPT LANGUAGE="JavaScript">
+        if (top != self){ top.location=self.location; }//防 Cross-Frame Scripting (XFS) 用
+        //var indexAlert = <?php echo $mode; ?>;
+    </SCRIPT>
+    <script type='text/javascript' defer src="Include/js/sha.js"></script>
+    <script type='text/javascript' defer src="Include/uc_js/index.js"></script>
+
+      <div data-theme="a" data-role="header" data-position="fixed">
+          <h3>考 尚 樂</h3>
+      </div>
+      <div data-role="content">
+          <div align="center" style="background-color: #fbfbfb;
+                border: 1px solid #b8b8b8;" data-controltype="image">
+              <img src="Include/images/Quizon_Head.png" height="120px" style="margin-top: 5px; margin-bottom: 5px;">
+          </div>
+          <div data-controltype="textblock">
+              <p style="text-align: center;" data-mce-style="text-align: center;">
+                  &lt;&nbsp;近10年學測 英文試題&nbsp;&gt;
+              </p>
+          </div>
+          <!--
+          <a data-role="button" data-transition="flow" data-theme="b" onclick='FB_login();'>
+              Facebook 登入
+          </a>
+          -->
+          <a data-role="button" data-transition="flow" data-theme="b" href="terms.html">
+              Facebook 登入
+          </a>
+      </div>
+      <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar" style="text-align: center; height: 30px;">
+            <ul>
+                <li><font size="2">copyright © 2013 Quizonla All rights reserved.</font></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+  </div>
+</body>
+</html>

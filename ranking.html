@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>成績排行 - Quizonla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Include/css/jquery.mobile.min.css" rel="stylesheet">
+    <script type='text/javascript' src="Include/js/3rd/jquery.min.js"></script>
+    <script type='text/javascript' src="Include/js/3rd/jquery.mobile.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-control-title="Learn_Plan">
+    <div data-role="header" data-position="fixed">
+        <h5>成績排行</h5>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true" data-divider-theme="b">
+            <li data-role="list-divider">個人測驗紀錄</li>
+            <li>正確率：59% (303 / 513)</li>
+            <li>全國排行：89 / 134</li>
+            <li>全校排行：尚未設定學校</li>
+            <li data-role="list-divider">校際排行</li>
+            <li>◎◎高中正確率：57% (尚未設定學校)</li>
+            <li data-role="collapsible" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+                <h4>使用數量排行：(僅列前10名)</h4>
+                <table data-role="table" id="table1" data-mode="" class="ui-body-d ui-shadow table-stripe ui-responsive"
+                       data-column-btn-theme="b">
+                    <tbody>
+                    <tr><td>排行</td><td>學校名稱</td><td>使用量</td></tr>
+                    <tr><td>1</td><td>成功高中</td><td>194</td></tr>
+                    <tr><td>2</td><td>台中一中</td><td>192</td></tr>
+                    <tr><td>3</td><td>大同高中</td><td>172</td></tr>
+                    <tr><td>4</td><td>台東高中</td><td>139</td></tr>
+                    <tr><td>5</td><td>三民高中</td><td>122</td></tr>
+                    <tr><td>6</td><td>師大附中</td><td>114</td></tr>
+                    <tr><td>7</td><td>景美女中</td><td>97</td></tr>
+                    <tr><td>8</td><td>高雄中學</td><td>93</td></tr>
+                    <tr><td>9</td><td>輔仁中學</td><td>75</td></tr>
+                    <tr><td>10</td><td>北一女中</td><td>50</td></tr>
+                    </tbody>
+                </table>
+            </li>
+            <li data-role="collapsible" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+                <h4>作答正確率排行：(僅列前10名)</h4>
+                <table data-role="table" id="table1" data-mode="" class="ui-body-d ui-shadow table-stripe ui-responsive"
+                       data-column-btn-theme="b">
+                    <tbody>
+                    <tr><td>排行</td><td>學校名稱</td><td>正確率</td></tr>
+                    <tr><td>1</td><td>北一女中</td><td>78.2%</td></tr>
+                    <tr><td>2</td><td>師大附中</td><td>77.4%</td></tr>
+                    <tr><td>3</td><td>成功高中</td><td>73.1%</td></tr>
+                    <tr><td>4</td><td>高雄中學</td><td>70.0%</td></tr>
+                    <tr><td>5</td><td>大同高中</td><td>66.5%</td></tr>
+                    <tr><td>6</td><td>台中一中</td><td>65.9%</td></tr>
+                    <tr><td>7</td><td>景美女中</td><td>65.8%</td></tr>
+                    <tr><td>8</td><td>三民高中</td><td>63.1%</td></tr>
+                    <tr><td>9</td><td>台東高中</td><td>60.1%</td></tr>
+                    <tr><td>10</td><td>輔仁中學</td><td>57.2%</td></tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar" data-iconpos="left">
+            <ul>
+                <li><a href="exam_list.html" data-icon="edit">測驗</a></li>
+                <li><a href="ranking.html" data-icon="bars">排行榜</a></li>
+                <li><a href="setting.html" data-icon="gear">設定</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div>
+</body>
+</html>
