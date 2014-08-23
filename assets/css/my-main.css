@@ -129,7 +129,7 @@ hr {
 ---------------------------------------------------*/
 /* Header Wrap */
 #headerwrap {
-  background: url(../img/rain1_min.jpg) no-repeat center top;
+  background: url(../img/rain1_min.jpg) no-repeat fixed;
   margin-top: 0px;
   padding-top: 120px;
   text-align: center;
