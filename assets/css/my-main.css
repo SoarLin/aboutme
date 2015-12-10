@@ -236,3 +236,9 @@ hr {
 sm {
   font-size: 12px;
 }
+
+@media screen and (max-width: 767px) {
+  #headerwrap {
+    background: url(../img/rain2_min.jpg) no-repeat fixed;
+  }
+}
