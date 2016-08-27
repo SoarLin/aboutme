@@ -1,0 +1,240 @@
+ /* Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    padding: 0;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+.a-transition (){
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+    .a-transition;
+    
+    &:hover,
+    &:focus{
+      color: #7b7b7b;
+      text-decoration: none;
+      outline: 0;
+    }
+    &:before,
+    &:after{
+      .a-transition;
+    }
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*---------------------------------------------------
+    3.1 Topbar
+---------------------------------------------------*/
+.font-set(@min:16px, @max:24px){
+    font: normal @min/@max  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.border-right(@color:#222){
+    border-left: 1px solid @color;
+}
+.border-left(@color:#222){
+    border-left: 1px solid @color;
+}
+#section-topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    opacity:.9;
+    overflow: visible;
+    .font-set;
+    a { color: #fff; }
+    i { font-size: 25px; }
+    ul#nav{
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        .border-right;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+
+        a {
+            display: block;
+            .font-set(11px,18px);
+            text-decoration: none;
+            padding: 18px 20px 18px 20px;
+            .border-left;
+            &:hover{
+                background: #222;
+                text-decoration: none;
+                .border-left(#111);
+            }
+        }
+
+        .active a{
+            background: #44bbaa;
+            .border-left(#111);
+            &:hover {
+                background: #44bbaa;
+            }
+        }
+    }
+    ul#nav > li {
+        display: block;
+        float: left;
+        padding: 0;
+    }
+}
+
+#topbar-inner {
+    background: #111;
+    line-height: 0;
+    text-align: center;
+}
+
+/*---------------------------------------------------
+    SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+    background: url(../img/rain1_min.jpg) no-repeat center top;
+    margin-top: 0px;
+    padding-top:120px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 560px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    h1{
+        font-size: 80px;
+        color: white;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 20px;
+        color: white;
+        margin-top: -30px;
+    }
+}
+
+/* Intnro Wrap */
+.dark-background{
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+#intro {
+    .dark-background;
+    h5, p{ color: white; }
+    i {
+        color: white;
+        font-size: 20px;
+        padding-right: 8px;
+        vertical-align: middle;
+    }
+} 
+
+#skillswrap {
+    .dark-background;
+    h5, p { color: white; }
+}
+
+#footwrap {
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h5, p { color: white; }
+    t { font-weight: 700; }
+    i {
+        padding-right: 8px;
+        color: #1abc9c;
+    }
+}
+/* Copyright Wrap */
+
+#c {
+    background: #222222;
+    padding-top: 15px;
+    text-align: right;
+    p { color: white };
+}
+
+/* Global Values */
+
+.desc {
+    padding-top: 50px;
+    p { color: #2f2f2f; }
+    t{
+        color: #34495e;
+        font-weight: 700;
+    }
+    imp {
+        padding: 6px;
+        color: white;
+        background: #34495e;
+    }
+    more { color: #95a5a6; }
+}
+
+sm {
+    font-size: 12px;
+}
