@@ -4,8 +4,13 @@
     left:530px;*/
 }
 
-.row > div > p > a{
+.row > div > p > a {
     color: #34495E;
+}
+.row > div > p > a.text-white,
+.row > div > p > a:hover.text-white {
+    color: #fff;
+    text-decoration: none;
 }
 
 .btt{
