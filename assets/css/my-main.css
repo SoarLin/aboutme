@@ -149,11 +149,15 @@ hr {
 #headerwrap h1 {
   font-size: 80px;
   color: white;
+  font-weight: 500;
+  text-shadow: -1px 3px 3px #545454;
   margin-top: 20px;
 }
 #headerwrap h3 {
   font-size: 20px;
+  text-shadow: -1px 3px 3px #545454;
   color: white;
+  font-weight: 500;
   margin-top: -30px;
 }
 /* Intnro Wrap */
@@ -231,14 +235,25 @@ hr {
   background: #34495e;
 }
 .desc more {
-  color: #95a5a6;
+  color: #666;
 }
 sm {
   font-size: 12px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-5 {
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 767px) {
   #headerwrap {
     background: url(../img/rain2_min.jpg) no-repeat fixed;
   }
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
 }

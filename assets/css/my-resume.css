@@ -1,8 +1,15 @@
+.img-circle {
+    width: 150px;
+    height: 150px;
+}
 .top-70{
     margin-top: 0px;
     /*float:left;
     left:530px;*/
 }
+/*h3.job-tittle {
+    text-shadow: -2px 2px 2px rgba(150, 150, 150, 0.9);
+}*/
 
 .row > div > p > a {
     color: #34495E;
