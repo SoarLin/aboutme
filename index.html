@@ -130,7 +130,23 @@
 							Zoek Inc.<br/>
 						</p>
 						<p class="mb-5"><more><a href="https://www.myfunnow.com" target="_blank">FunNow</a> is a service platform for real-time booking all kinds of entertainment, include massage/spa, fine dining & drinking, late check-in, lashes and manicure, Fun outdoor activities.<br></more></p>
-						<p class="mb-5"><more>Maintain the merchant system, use slim framework to improve website, add multi-language (i18n), SEO, set GA, FB Pixel, etc. to help marketing and advertising effectiveness tracking.</more></p>
+            <!-- <p class="mb-5"><more>Maintain the merchant system, use slim framework to improve website, add multi-language (i18n), SEO, set GA, FB Pixel, etc. to help marketing and advertising effectiveness tracking.</more></p> -->
+            <ul>
+              <li>Maintain the merchant system and website development, use PHP (slim framework)
+                <ul>
+                  <li>i18n, SEO, GA Tracking, Facebook Pixel</li>
+                </ul>
+              </li>
+              <li>
+                Develop new merchant system
+                <ul>
+                  <li>Vue.js, Firebase + Web Push Notification</li>
+                  <li>RESTful API with Golang(gin framework)</li>
+                  <li>Use ElasticSearch to develop product and sell-time search</li>
+                  <li>AWS Lambda for schedule cronjob</li>
+                </ul>
+              </li>
+            </ul>
 						<p><more></more></p>
 					</div>
 					<div class="col-md-3">
@@ -324,15 +340,15 @@
 				<div class="row">
 						<div class="col-md-2 col-md-offset-1">
 							<h5>SKILLS</h5>
-						</div>
+            </div>
 						<div class="col-xs-6 col-md-2 centered">
-							<canvas id="lamp" height="130" width="130"></canvas>
-							<p>LAMP</p>
+							<canvas id="vuejs" height="130" width="130"></canvas>
+							<p>Vue.js</p>
 							<br>
 						</div>
 						<div class="col-xs-6 col-md-2 centered">
-							<canvas id="ubuntu" height="130" width="130"></canvas>
-							<p>Ubuntu</p>
+							<canvas id="golang" height="130" width="130"></canvas>
+							<p>Golang</p>
 							<br>
 						</div>
 						<div class="col-xs-6 col-md-2 centered">
@@ -530,16 +546,16 @@
 	new Chart(document.getElementById("git").getContext("2d")).Doughnut(doughnutData);
 
 	var doughnutData = [
-		{ value: 80, color:"#1abc9c"},
-		{ value : 20, color : "#ecf0f1"}
+		{ value: 85, color:"#1abc9c"},
+		{ value : 15, color : "#ecf0f1"}
 	];
-	new Chart(document.getElementById("ubuntu").getContext("2d")).Doughnut(doughnutData);
+	new Chart(document.getElementById("vuejs").getContext("2d")).Doughnut(doughnutData);
 
 	var doughnutData = [
 		{ value: 75, color:"#1abc9c"},
 		{ value : 25, color : "#ecf0f1"}
 	];
-	new Chart(document.getElementById("lamp").getContext("2d")).Doughnut(doughnutData);
+	new Chart(document.getElementById("golang").getContext("2d")).Doughnut(doughnutData);
 
 	var doughnutData = [
 		{ value: 93, color:"#1abc9c"},
