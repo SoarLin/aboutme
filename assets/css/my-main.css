@@ -7,7 +7,7 @@
  */
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 300;
   color: #333;
 }
@@ -63,7 +63,6 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
   padding: 0;
 }
 /*---------------------------------------------------
@@ -75,9 +74,10 @@ hr {
   left: 0;
   right: 0;
   z-index: 10000;
-  opacity: .9;
+  opacity: 0.9;
   overflow: visible;
-  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px/24px 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
 #section-topbar a {
   color: #fff;
@@ -97,7 +97,8 @@ hr {
 }
 #section-topbar ul#nav a {
   display: block;
-  font: normal 11px/18px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 11px/18px 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
   border-left: 1px solid #222222;
@@ -164,35 +165,20 @@ hr {
 .dark-background {
   background: #2c3e50;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   color: white;
 }
-#intro {
-  background: #2c3e50;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.dark-background h5,
+.dark-background p {
   color: white;
 }
-#intro h5,
-#intro p {
-  color: white;
-}
-#intro i {
+.dark-background i {
   color: white;
   font-size: 20px;
   padding-right: 8px;
   vertical-align: middle;
 }
-#skillswrap {
-  background: #2c3e50;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  color: white;
-}
-#skillswrap h5,
-#skillswrap p {
-  color: white;
-}
+
 #footwrap {
   background: #2f2f2f;
   padding-top: 50px;
